@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>resizableImage</title>
+    <style>
+
+      canvas {
+        border: 1px solid #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="/test.png" />
+    <img id="test" />
+
+    <script src="/resizable-image/index.js"></script>
+    <script>
+      ResizableImage.init('/test.png', 200, 200, 10, 40, 40, 10, (err, image) => {
+        document.querySelector('#test').src = image
+      })
+    </script>
+  </body>
+</html>

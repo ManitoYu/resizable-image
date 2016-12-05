@@ -1,0 +1,27 @@
+{
+  "name": "resizable-image",
+  "version": "1.0.0",
+  "description": "It can help you create backgrounds that can grow or shrink to fill the available space.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManitoYu/resizable-image.git"
+  },
+  "keywords": [
+    "resizable",
+    "stretchable",
+    "image",
+    "scale",
+    "shrink",
+    "grow"
+  ],
+  "author": "Onionkings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ManitoYu/resizable-image/issues"
+  },
+  "homepage": "https://github.com/ManitoYu/resizable-image#readme"
+}
